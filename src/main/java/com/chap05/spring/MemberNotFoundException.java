@@ -1,4 +1,4 @@
-package com.example.demo.spring;
+package com.chap05.spring;
 
 public class MemberNotFoundException extends RuntimeException {
 

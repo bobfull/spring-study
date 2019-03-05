@@ -1,14 +1,15 @@
-package com.example.demo.config;
+package com.chap05.config;
 
-import com.example.demo.spring.*;
+import com.chap05.spring.MemberPrinter;
+import com.chap05.spring.MemberSummaryPrinter;
+import com.chap05.spring.VersionPrinter;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
 
 @Configuration
-@ComponentScan(basePackages = {"com.example.demo"})
+@ComponentScan(basePackages = {"com.chap05"})
 public class AppCtx {
 
 

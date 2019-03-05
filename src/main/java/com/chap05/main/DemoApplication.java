@@ -1,13 +1,11 @@
-package com.example.demo.main;
+package com.chap05.main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import com.example.demo.config.AppCtx;
-import com.example.demo.spring.*;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.chap05.config.AppCtx;
+import com.chap05.spring.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
