@@ -5,7 +5,8 @@ pipeline {
       parallel {
         stage('Built-test-1') {
           steps {
-            build 'Build-test-1'
+            sh '''echo ${env.TEST}
+build job: \'Build-test-1\''''
           }
         }
         stage('Build-test-2') {
@@ -25,5 +26,8 @@ pipeline {
         build 'Build-test-4'
       }
     }
+  }
+  environment {
+    TEST = '5'
   }
 }
